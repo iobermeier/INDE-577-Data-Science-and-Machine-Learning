@@ -9,14 +9,14 @@ This semester-long project covers algorithms from supervised, unsupervised, and 
 
 #### [Supervised Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning):
 - [Model Building and Error Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/0-Model-Building-and-Error-Analysis)
-- Linear Regression
-- Gradient Descent
-- Logistic Regression
-- Neural Nets
-- Support Vector Machines
-- k-Nearest Neighbors
-- Decision/Regression Trees
-- Ensemble Learning
+- [Linear Regression](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/1-Linear-Regression)
+- [Gradient Descent](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/2-Gradient-Descent)
+- [Logistic Regression](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/3-Logistic-Regression)
+- [Neural Nets](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/4-Neural-Networks)
+- [Support Vector Machines](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/5-Support-Vector-Machines)
+- [k-Nearest Neighbors](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/6-k-Nearest-Neighbors)
+- [Decision/Regression Trees](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/7-Decision%5CRegression-Trees)
+- [Ensemble Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/8-Ensemble-Learning)
 
 #### Unsupervised Learning:
 - k-Means Clustering
