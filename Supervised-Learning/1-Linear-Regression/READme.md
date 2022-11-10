@@ -36,6 +36,8 @@ To ensure that the input data will be properly modeled using linear regression, 
 
 After the data is modeled, we can further calculate mathematical properties such as mean, standard deviation, correlation, and covariance.
 
+## Understanding the Data
+(describe what the results of this dataset show)
 
 ## References & Further Reading:
 - [Wikipedia - Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
