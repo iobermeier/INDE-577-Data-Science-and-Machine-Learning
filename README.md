@@ -18,9 +18,9 @@ This semester-long project covers algorithms from supervised, unsupervised, and 
 - [Decision/Regression Trees](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/7-Decision%5CRegression-Trees)
 - [Ensemble Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/8-Ensemble-Learning)
 
-#### Unsupervised Learning:
-- k-Means Clustering
-- Principle Component Analysis
+#### [Unsupervised Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning):
+- [k-Means Clustering](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/0-k-Means-Clustering)
+- [Principle Component Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/1-Principle-Component-Analysis)
 
 #### Reinforcement Learning
 - Tabular versus Deep Learning Methods
