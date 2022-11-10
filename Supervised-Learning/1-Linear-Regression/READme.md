@@ -38,6 +38,6 @@ After the data is modeled, we can further calculate mathematical properties such
 
 
 ## References & Further Reading:
-- Wikipedia - Linear Regression 
-- IBM Linear Regression
-- Towards Data Science https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a
+- [Wikipedia - Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
+- [IBM Linear Regression](https://www.ibm.com/docs/en/db2oc?topic=procedures-linear-regression)
+- [Towards Data Science](https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a)
