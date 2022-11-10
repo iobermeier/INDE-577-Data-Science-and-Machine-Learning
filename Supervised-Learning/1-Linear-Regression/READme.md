@@ -15,7 +15,7 @@ Minimizes the error between the predicted and actual values. More specifically, 
 ### Gradient Descent
 Minimizing the error of the cost function by iteratively reducing the cost helps indicate how to change the values. Even though the cost function can compute local minima, linear regression always outputs absolute minima, aka a convex function.
 
-The gradient descent computes partial derivatives to help dictate the learning rate in which the algorithm converges to the minima as seen in the image below. The partial derivatives update the inpute values with alpha as the learning rate. A small alpha indicates a close minima that takes more time to reach, whereas a large alpha is farther (converges more quickly), but can accidentally overshoot the minima. Therefore, it is importantly to pick the correct alpha/learning rate. 
+The gradient descent computes partial derivatives to help dictate the learning rate in which the algorithm converges to the minima as seen in the image below. The partial derivatives update the input values with alpha as the learning rate. A small alpha indicates a close minima that takes more time to reach, whereas a large alpha is farther (converges more quickly), but can accidentally overshoot the minima. Therefore, it is importantly to pick the correct alpha/learning rate. 
 
 ![Gradient Descent](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/blob/main/Supervised-Learning/1-Linear-Regression/images/Gradient%20Descent.png)
 
