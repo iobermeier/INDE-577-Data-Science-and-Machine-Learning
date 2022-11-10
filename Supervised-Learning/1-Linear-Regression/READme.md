@@ -10,10 +10,14 @@ Linear regression has applicability in artificial intelligence, finance, economi
 ### Mean Squared Error / Cost Function: 
 Minimizes the error between the predicted and actual values. More specifically, after calculating the distance between a data point and the regression line, it is then squared, and sum over all data points. The resulting value is the benchmark to which the ordinary least squares want to minimize which eventually estimates the linear coefficients.
 
+!(/images/Cost Function.png)
+
 ### Gradient Descent
 Minimizing the error of the cost function by iteratively reducing the cost helps indicate how to change the values. Even though the cost function can compute local minima, linear regression always outputs absolute minima, aka a convex function.
 
 The gradient descent computes partial derivatives to help dictate the learning rate in which the algorithm converges to the minima as seen in the image below. The partial derivatives update the inpute values with alpha as the learning rate. A small alpha indicates a close minima that takes more time to reach, whereas a large alpha is farther (converges more quickly), but can accidentally overshoot the minima. Therefore, it is importantly to pick the correct alpha/learning rate. 
+
+!(/images/Gradient Descent.png)
 
 The output of the Cost Function gives the coefficients needed for modeling linear regression.
 
