@@ -6,6 +6,8 @@ Used in research, results prediction, and trend forecasts, linear regression mod
 Linear regression has applicability in artificial intelligence, finance, economics, and many other fields that rely upon prediction models.
 
 ## Mathematical Background
+### Linear Activation Function:
+
 
 ### Mean Squared Error / Cost Function: 
 Minimizes the error between the predicted and actual values. More specifically, after calculating the distance between a data point and the regression line, it is then squared, and sum over all data points. The resulting value is the benchmark to which the ordinary least squares want to minimize which eventually estimates the linear coefficients.
