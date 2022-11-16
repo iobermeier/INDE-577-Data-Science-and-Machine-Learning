@@ -8,7 +8,6 @@ Welcome to this repository covering fundamental machine learning and data scienc
 This semester-long project covers algorithms from supervised, unsupervised, and reinforcement learning using primarily Python programming, versions 3.6 and higher, in Jupyter Notebooks. Python tools such as pandas, NumPy, MatPlotLib, Scikit-Learn, and TensorFlow are utilized for convenience and ease of use. Students can improve their skills of version control with Git and Github as well as optimizing data visualization models. The project covers the following topics:
 
 #### [Supervised Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning):
-- [Model Building and Error Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/0-Model-Building-and-Error-Analysis)
 - [Linear Regression](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/1-Linear-Regression)
 - [Gradient Descent](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/2-Gradient-Descent)
 - [Logistic Regression](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/3-Logistic-Regression)
