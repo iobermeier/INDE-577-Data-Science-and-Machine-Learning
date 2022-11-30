@@ -5,7 +5,7 @@ Gradient Descent is a supervised learning tool that optimizes results by minimiz
 Used in research to test accuracy, gradient descent models are trained upon convex functions that will iteratively find a local minimum, aka when the slope becomes 0. An initial guess or starting point is set and iteratively adjusts based upon values of alpha that will minimize the cost function. As seen with its applicability in the Linear Regression lesson, gradient descent is a foundational training algorithm for machine learning.
 
 ### Stochastic Gradient Descent
-Stochastic, meaning a process done with random probability, randomly selects a few samples for each iteration. The gradient is computed of a single sample instead of the sum of all gradients durig each iteration. Due to the random sampling, the process is generally a bit noisier, as seen with this representation of finding the center/minimum:
+Stochastic, meaning a process done with random probability, randomly selects a few samples for each iteration. The gradient is computed of a single sample instead of the sum of all gradients during each iteration. Due to the random sampling, the process is generally a bit noisier, as seen with this representation of finding the center/minimum:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/97500105/204724664-7c60af84-6da7-46a8-9d17-777319292e25.jpeg" alt="stochastic" style="width:300px;"/>
@@ -40,21 +40,24 @@ To calculate the value of each theta/gradient, we iteratively calculate the diff
 
 ## Machine Learning Implementation
 
-To build a linear regression model, there are a number of methods and tools we can use. One way is to hard code the model from the mathematical equations previously mentioned using the NumPy library. While this is a good exercise, it is much more streamlined to use libraries that already compute linear regression models. One of these predetermined methods is to use the scikit learn library, specifically the 'LinearRegression' dependency from the 'linear_model' sub-library.
+To build a gradient descent model, we program specific functions for each type of gradient descent we want to test. Each function uses matrix multiplication to handle the data sizes we specify. Additionally, we set the rate of descent as f(w) = (w - 2)<sup>2</sup> + 1 and the derivative of the rate of descent as df(w) = 2*(w - 2).
+
+The first section covers the basics of gradient descent using artificial data through visualizations of the model choosing values that follow the rate of descent and how those change with various values of alpha. Next, we apply some real-world data to show how real descent can be analyzed. Finally, there is an example for each type of gradient descent using the given dataset.
 
 ## Modeling
 
-Since both the input and output values are real numeric values, linear regression is a favorable modeling technique. The best fit straight line demonstrates the linear relationship between our input variables based upon the linear equation of a line as mentioned above. The model is fit based upon training data and outputs the predicted values. 
+Since both the input and output values are real numeric values, gradient descent is a favorable modeling technique. When visualizing gradient descent, the preferred standard is to mimic a parabola to find the absolute minimum. 
 
-To ensure that the input data will be properly modeled using linear regression, we need to prepare the inputs. 
-1. One needs to ensure that the raw data has a linear relationship rather than something like an exponential relationship, which would need a log transform to become linear. 
-2. The data should not be noisy and should consider removing outliers since this can skew the prediction models. 
-3. Rescaling the inputs using standardization or normalization can ensure more reliable and precise models. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97500105/204731720-f455582a-e8ae-4f25-82b6-a0fba258f0f7.png" alt="3d gradients";"/>
+</p>
 
-After the data is modeled, we can further calculate mathematical properties such as mean, standard deviation, correlation, and covariance.
+The convex shape naturally implies that the gradients must find the smallest slope. Stochastic and Batch Gradient Descent models show the efficiency and accuracy of using various training sizes before testing. 
 
 ## Understanding the Data
 The given dataset downloaded from [kaggle](https://www.kaggle.com/datasets/himanshunakrani/student-study-hours?resource=download) plots the amount of hours a student studied for a test compared to the grade they received. Having used the same data set for calculating gradient descent in the Linear Regression unit, we know that this data is fit and able to exemplify this topic. 
+
+The outputs of the graphs in the notebooks first show the importance of choosing a good alpha/learning rate and then considering the methods in which to handle the size of the training data. Each example shows the descent of weights which are useful for minimizing costs and act as a steppingstone for other types of analysis.
 
 ## References & Further Reading:
 - [Wikipedia - Gradient Descent](https://en.wikipedia.org/wiki/Gradient_descent)
