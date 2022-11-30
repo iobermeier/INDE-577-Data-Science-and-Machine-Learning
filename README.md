@@ -21,5 +21,6 @@ This semester-long project covers algorithms from supervised and unsupervised le
 - [k-Means Clustering](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/0-k-Means-Clustering)
 - [Principle Component Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/1-Principle-Component-Analysis)
 
-#### Graph Theory
+#### [Graph Theory](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Graph-Theory/1-Graph-Theory)
+- [Network Graphs](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Graph-Theory/1-Graph-Theory)
 
