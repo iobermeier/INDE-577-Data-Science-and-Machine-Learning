@@ -2,10 +2,10 @@
 ## Isabella Obermeier
 ### Email: io9@rice.edu
 
-Welcome to this repository covering fundamental machine learning and data science topics from Rice University's graduate level industrial engineering, INDE 577 taught by Dr. Randy Davila in Fall 2022. 
+Welcome to this repository covering fundamental machine learning and data science topics from Rice University's graduate level industrial engineering class, INDE 577 taught by Dr. Randy Davila in Fall 2022. 
 
 ### Project Description:
-This semester-long project covers algorithms from supervised, unsupervised, and reinforcement learning using primarily Python programming, versions 3.6 and higher, in Jupyter Notebooks. Python tools such as pandas, NumPy, MatPlotLib, Scikit-Learn, and TensorFlow are utilized for convenience and ease of use. Students can improve their skills of version control with Git and Github as well as optimizing data visualization models. The project covers the following topics:
+This semester-long project covers algorithms from supervised and unsupervised learning as well as graph theory usig primarily Python programming, versions 3.6 and higher, in Jupyter Notebooks. Python tools such as pandas, NumPy, MatPlotLib, Scikit-Learn, and TensorFlow are utilized for convenience and ease of use. Students can improve their skills of version control with Git and Github as well as optimizing data visualization models. The project covers the following topics:
 
 #### [Supervised Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning):
 - [Linear Regression](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/1-Linear-Regression)
@@ -21,6 +21,5 @@ This semester-long project covers algorithms from supervised, unsupervised, and 
 - [k-Means Clustering](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/0-k-Means-Clustering)
 - [Principle Component Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/1-Principle-Component-Analysis)
 
-#### Reinforcement Learning
-- Tabular versus Deep Learning Methods
+#### Graph Theory
 
