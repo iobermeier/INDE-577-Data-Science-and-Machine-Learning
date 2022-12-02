@@ -1,15 +1,28 @@
 # Logistic Regression
 
-Logistic Regression is a supervised learning tool that 
+Logistic Regression is a supervised learning tool that classifies features to make  predictions. Using independent inputs as variables, the model can predict the outcome of dependent variables. 
 
-Used in ___ to test __, logistic regression models are trained upon 
+There are two main types of regression: 
+- Binomial - choose between 2 options
+- Multinomal - multiple options to choose 
 
 <p align="center">
-<img src="" alt="stochastic" style="width:300px;"/>
+<img src="https://user-images.githubusercontent.com/97500105/205239716-85d1100c-f2c4-43e1-b408-f9ca6ba753d7.png" alt="stochastic" style="width:500px;"/>
 </p>
+
+Used in statistics, medical applications, and email sorting, logistic regression makes classifications and enhance decisions through the probability of an event occurring. 
+
+Logistic Regression is easy to implement, efficient to train, and less prone to overfitting. On the other hand, this method can only predict discrete data since it's disjoint nature is the core of the results. 
+
+This unit will primarily focus upon binomial regression using SkLearn's built-in functions instead, but the example could easily include other numeric variables to make predictions. 
 
 ## Mathematical Background
 
+Compared to using the equation of a straight line in linear regression, logistic regression uses the sigmoid/logistic function. Since the domain of values of a sigmoid function are close to both 0 and 1, it is appealing for classification. Similar to a natural log, when x = 1, log(x) = 0 ...
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97500105/205240300-b458998b-dd1d-4838-bf94-1efe3f2fd809.png" alt="stochastic" style="width:200px;"/>
+</p>
 
 
 
