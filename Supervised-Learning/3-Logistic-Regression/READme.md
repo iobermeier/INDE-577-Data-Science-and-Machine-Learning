@@ -18,21 +18,44 @@ This unit will primarily focus upon binomial regression using SkLearn's built-in
 
 ## Mathematical Background
 
-Compared to using the equation of a straight line in linear regression, logistic regression uses the sigmoid/logistic function. Since the domain of values of a sigmoid function are close to both 0 and 1, it is appealing for classification. Similar to a natural log, when x = 1, log(x) = 0 ...
+Compared to using the equation of a straight line in linear regression, logistic regression uses the sigmoid/logistic function. Since the domain of values of a sigmoid function are close to either 0 and 1, it is appealing for classification.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/97500105/205240300-b458998b-dd1d-4838-bf94-1efe3f2fd809.png" alt="stochastic" style="width:200px;"/>
 </p>
 
+f(x) is often considered to have a probability of 1 and so 1 - f(x) is considered to to have an output to 0. Similar to a natural log, when x = 1, then log(x) = 0 and log(1 - x) is always approaching 1, therefore creating the following graphical behaviour:
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97500105/205260985-23dde321-cd39-4c9b-8690-d0dbbe3f8a91.png" alt="stochastic" style="width:400px;"/>
+</p>
+
+Building upon principles from previous units, the application of the sigmoid function in conjunction with gradient descent and cost calculations follow a process similar to linear regression. Rather than observing the results for linear results, we hope to have parabolic behaviour.
 
 ## Machine Learning Implementation
 
-To build a logistic regression model, 
+To build a logistic regression model, we want to build a model that returns values as similar to the actual values, either 0 or 1. The process in which to process the inputs into binomial outputs, follows a 3 step process known as the perceptron. 
+1. Take inputs and multiply by weights that are calculated by maxium likelihood calculations
+2. Sum the products from step 1 into a weight sum
+3. The weighted sum is applied to the activation function that sets thresholds for the outputs
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97500105/205265065-96f14665-520d-4e64-b66f-2a5984af548b.png" alt="stochastic" style="width:600px;"/>
+</p>
+
+The weights in the perceptron are one of the most important steps since it can demonstrate the strength of the input value (node).
 
 ## Modeling
 
-[discuss data prep and building the model]
+Using the split, test, train method, we complete the entire ML process for logistic regression. We split the inputs so that 70% is used to train the model and 30% is reserved for testing afterwards.
+
+After logistic regression is modeled, we analyze its accuracy through binary classifiers such as:
+- positive predictive values: ratio of true +s : total +s
+- negative predictive values: ratio of true -s : total -s
+- sensitivity: ratio of true +s : actual +s
+- specificity: ratio of true -s : actual -s
+
+The results of such analysis can be represented in a confusion matrix that seperates such values into quadrants and visualizes the ratios of true and actual values.
 
 ## Understanding the Data
 The given dataset downloaded from [kaggle](https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?resource=download) shows the reviews of 17712 films with details including movie name, review type, score, date, runtime, review, director and actor names. We do not need all the data and process it as described in the modeling section. There are many interpretations that can be done with the data showing correlations, linear relations, and as seen in this notebook, regression modeling.
