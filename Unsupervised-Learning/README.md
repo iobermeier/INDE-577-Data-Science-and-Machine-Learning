@@ -6,7 +6,7 @@ Unsupervised learning primarily processes unlabeled datasets in machine learning
 - Association & Dimensionality Reduction: 
   - Association: finding relationships between variables
   - Dimensionality Reduction: Reduces the number of inputs to a manageable size while keeping data intact
-  - [Principle Component Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/1-Principle-Component-Analysis)
+    - [Principle Component Analysis](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Unsupervised-Learning/1-Principle-Component-Analysis)
 
 References & Further Reading:
 - [IBM](https://www.ibm.com/cloud/learn/unsupervised-learning)
