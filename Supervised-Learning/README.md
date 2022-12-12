@@ -10,6 +10,7 @@ Supervised Learning is primarily seperated into these 2 categories:
   - [Ensemble Learning](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/8-Ensemble-Learning)
 
 - Classification: Assigns test data into specific categories to draw conclusions on how they should be labeled and defined
+  - [Neural Networks](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/4-Neural-Networks)
   - [Support Vector Machines](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/5-Support-Vector-Machines)
   - [k-Nearest Neighbors](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/6-k-Nearest-Neighbors)
   - [Decision/Regression Trees](https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/tree/main/Supervised-Learning/7-Decision%5CRegression-Trees)
