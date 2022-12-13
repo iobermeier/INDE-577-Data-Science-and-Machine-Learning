@@ -4,16 +4,16 @@ Supervised learning essentially uses labeled data to implement learning algorith
 
 Supervised Learning is primarily seperated into these 2 categories:
 - Regression: analyzes the relationship between dependent and independent variables
-  - [Linear Regression](./Supervised-Learning/1-Linear-Regression/)
-  - [Gradient Descent](./Supervised-Learning/2-Gradient-Descent/)
-  - [Logistic Regression](./Supervised-Learning/3-Logistic-Regression/)
-  - [Ensemble Learning](./Supervised-Learning/8-Ensemble-Learning/)
+  - [Linear Regression](./1-Linear-Regression/)
+  - [Gradient Descent](./2-Gradient-Descent/)
+  - [Logistic Regression](./3-Logistic-Regression/)
+  - [Ensemble Learning](./8-Ensemble-Learning/)
 
 - Classification: Assigns test data into specific categories to draw conclusions on how they should be labeled and defined
-  - [Neural Nets](./Supervised-Learning/4-Neural-Networks/)
-  - [Support Vector Machines](./Supervised-Learning/5-Support-Vector-Machines/)
-  - [k-Nearest Neighbors](./Supervised-Learning/6-k-Nearest-Neighbors/)
-  - [Decision/Regression Trees](./Supervised-Learning/7-Decision_Regression-Trees/)
+  - [Neural Nets](./4-Neural-Networks/)
+  - [Support Vector Machines](./5-Support-Vector-Machines/)
+  - [k-Nearest Neighbors](./6-k-Nearest-Neighbors/)
+  - [Decision/Regression Trees](./7-Decision_Regression-Trees/)
 
 ## References & Further Reading
 - [IBM](https://www.ibm.com/cloud/learn/supervised-learning)
