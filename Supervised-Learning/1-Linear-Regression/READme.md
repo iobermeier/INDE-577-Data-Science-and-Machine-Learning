@@ -13,7 +13,7 @@ Linear regression has applicability in artificial intelligence, finance, economi
 Minimizes the error between the predicted and actual values. More specifically, after calculating the distance between a data point and the regression line, it is then squared, and sum over all data points. The resulting value is the benchmark to which the ordinary least squares want to minimize which eventually estimates the linear coefficients.
 
 <p align="center">
-  <img src="https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/blob/main/Supervised-Learning/1-Linear-Regression/images/Cost%20Function.png" />
+  <img src="images/Cost%20Function.png" />
 </p>
 
 ### Gradient Descent
@@ -22,13 +22,13 @@ Minimizing the error of the cost function by iteratively reducing the cost helps
 The gradient descent computes partial derivatives to help dictate the learning rate in which the algorithm converges to the minima as seen in the image below. The partial derivatives update the input values with alpha as the learning rate.
 
 <p align="center">
-  <img src="https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/blob/main/Supervised-Learning/1-Linear-Regression/images/weights%20and%20biases.png" />
+  <img src="images/weights%20and%20biases.png", style="width:300px;" />
 </p>
 
 A small alpha indicates a close minima that takes more time to reach, whereas a large alpha is farther (converges more quickly), but can accidentally overshoot the minima. Therefore, it is importantly to pick the correct alpha/learning rate. 
 
 <p align="center">
-  <img src="https://github.com/iobermeier/INDE-577-Data-Science-and-Machine-Learning/blob/main/Supervised-Learning/1-Linear-Regression/images/Gradient%20Descent.png" />
+  <img src="images/Gradient%20Descent.png" />
 </p>
 
 The output of the Cost Function gives the coefficients needed for modeling linear regression.

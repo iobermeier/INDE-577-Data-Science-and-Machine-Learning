@@ -12,7 +12,7 @@ Used in processing satellite images and predicting handwriting, kNN considers mo
 One of the instrumental pieces of computing the nearest neighbors includes finding the points nearest to that of interest. In order to so, we calculate the Euclidean distance between the point of interest and its neighbors using the following equation:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/97500105/207292195-584e3c02-3eda-4952-8a51-46510f8c412a.svg" style="width:300px;"/>
+<img src="" style="width:300px;"/>
 </p>
 
 Take the k most minimum numbers, we have a guess at what the label would be for the point of interest.
