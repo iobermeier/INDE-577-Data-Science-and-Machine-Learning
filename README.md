@@ -22,4 +22,4 @@ This semester-long project covers algorithms from supervised and unsupervised le
 - [Principle Component Analysis](./Unsupervised-Learning/1-Principal-Component-Analysis/)
 
 #### [Graph Theory](./Graph-Theory/1-Graph-Theory/):
-- [Network Graphs](./Graph-Theory/1-Graph-Theory/)
+- [Network Graphs](./Graph-Theory/1-Graph-Theory/) 
